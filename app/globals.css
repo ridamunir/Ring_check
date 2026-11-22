@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rendered TinyMCE HTML on public pages */
+.content-html h1 { @apply text-3xl font-bold mb-4; }
+.content-html h2 { @apply text-2xl font-bold mt-6 mb-3; }
+.content-html h3 { @apply text-xl font-bold mt-5 mb-2; }
+.content-html p { @apply mb-3 leading-relaxed; }
+.content-html ul { @apply list-disc pl-6 mb-3; }
+.content-html ol { @apply list-decimal pl-6 mb-3; }
+.content-html a { @apply text-blue-600 underline; }
+.content-html strong { @apply font-bold; }
+
+/* MyRingCheck brand: Midnight Navy #0B1F3A, Vivid Teal #00BFA6, Amber #FF9F1C (alerts only) */
+body { background: #ffffff; }
+a { text-decoration-skip-ink: auto; }
+.content-html a { color: #0B1F3A; }
+details summary::-webkit-details-marker { display: none; }
